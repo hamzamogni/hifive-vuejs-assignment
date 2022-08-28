@@ -1,8 +1,7 @@
-
 import axios from "axios";
 
 export default () => {
-  let baseURL = "https://api.github.com/search/repositories";
+  let baseURL = "https://api.github.com/search";
 
   return axios.create({
     baseURL: baseURL,
