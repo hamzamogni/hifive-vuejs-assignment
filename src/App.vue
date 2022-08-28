@@ -61,7 +61,6 @@ export default {
     initParams(date) {
       this.date = date;
       this.page = 1;
-
     },
 
     async getRepositories(date) {
